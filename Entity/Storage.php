@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Storage
  *
  * @ORM\Table(name="LinkedInStorage")
- * @ORM\Entity
+ * @ORM\MappedSuperclass
  */
 class Storage
 {
@@ -34,7 +34,6 @@ class Storage
      * @ORM\Column(name="value", type="string", length=255)
      */
     private $value;
-
 
     /**
      * Get id
