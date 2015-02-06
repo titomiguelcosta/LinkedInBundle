@@ -1,0 +1,32 @@
+{
+  "name": "zorbus/linkedin-bundle",
+  "type": "symfony-bundle",
+  "description": "A bundle for the PHP library that interacts with the LinkedIn API",
+  "keywords": ["API", "LinkedIn", "Symfony", "bundle"],
+  "homepage": "http://www.titomiguelcosta.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tito Miguel Costa",
+      "email": "zorbus@titomiguelcosta.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "zorbus/linkedin": "~0.0.1",
+    "symfony/framework-bundle": "~2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-0": { "Zorbus\\LinkedInBundle\\": "" }
+  },
+  "target-dir": "Zorbus/LinkedInBundle",
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
