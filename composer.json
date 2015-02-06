@@ -13,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "zorbus/linkedin": "0.0.1",
+    "zorbus/linkedin": "~0.1",
     "symfony/framework-bundle": "~2.3"
   },
   "require-dev": {
